@@ -9,7 +9,7 @@
   },
   "jest": {
     "verbose": true,
-    "testPathIgnorePatterns" : [
+    "testPathIgnorePatterns": [
       "<rootDir>/sandbox/"
     ]
   },
