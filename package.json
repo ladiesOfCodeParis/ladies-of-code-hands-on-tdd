@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test:all": "jest",
-    "test:edition#1": "jest -t Edition#1 --watch"
+    "test:edition#1": "jest -t Edition#1 --watch",
+    "test:edition#2": "jest -t Edition#1 --watch"
   },
   "jest": {
     "verbose": true,
