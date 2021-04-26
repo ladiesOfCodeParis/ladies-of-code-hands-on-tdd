@@ -6,7 +6,8 @@
   "scripts": {
     "test:all": "jest",
     "test:edition#1": "jest -t Edition#1 --watch",
-    "test:edition#2": "jest -t Edition#1 --watch"
+    "test:edition#2": "jest -t Edition#2 --watch",
+    "test:edition#3": "jest -t Edition#3 --watch"
   },
   "jest": {
     "verbose": true,
@@ -38,6 +39,6 @@
   },
   "homepage": "https://github.com/ladiesOfCodeParis/ladies-of-code-hands-on-tdd#readme",
   "devDependencies": {
-    "jest": "^26.6.3"
+    "jest": "26.6.3"
   }
 }
