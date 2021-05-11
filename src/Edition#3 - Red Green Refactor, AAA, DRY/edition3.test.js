@@ -49,5 +49,59 @@ describe('Edition#3', () => {
             // Assert
             expect(actual).toBe(expected);
         });
+
+
+        test('Middle case - Given 3, should return III', () => {
+            // Arrange
+            let input = 3;
+            let expected = 'III';
+            // Act
+            let actual = toRomanNumerals(input);
+            // Assert
+            expect(actual).toBe(expected);
+        });
+
+        test('Middle case - Given 4, should return IV', () => {
+            // Arrange
+            let input = 4;
+            let expected = 'IV';
+            // Act
+            let actual = toRomanNumerals(input);
+            // Assert
+            expect(actual).toBe(expected);
+        });
+
+
+        test('Middle case - Given 6, should return VI', () => {
+            // Arrange
+            let input = 6;
+            let expected = 'VI';
+            // Act
+            let actual = toRomanNumerals(input);
+            // Assert
+            expect(actual).toBe(expected);
+        });
+
+
+        test('Middle case - Given 7, should return VII', () => {
+            // Arrange
+            let input = 7;
+            let expected = 'VII';
+            // Act
+            let actual = toRomanNumerals(input);
+            // Assert
+            expect(actual).toBe(expected);
+        });
+
+
+        test('Middle case - Given 8, should return VIII', () => {
+            // Arrange
+            let input = 8;
+            let expected = 'VIII';
+            // Act
+            let actual = toRomanNumerals(input);
+            // Assert
+            expect(actual).toBe(expected);
+        });
     })
 })

@@ -1,16 +1,24 @@
 function toRomanNumerals(value) {
-    const keyValues = {
-        1:'I',
+    const specialCases = {
         0: '',
+        4: 'IV',
         5:'V',
         10:'X'
     }
 
-    if(keyValues[value] !== undefined) {
-      return keyValues[value];
+    if(specialCases[value] !== undefined) {
+      return specialCases[value];
     }
 
-    return 'II'
+    let result = '';
+    if ( value == 6 || value == 7 || value == 8) {
+        result = 'V';
+        value -= 5;
+    }
+    for (let i=1; i <= value ; i++ ) {
+        result += 'I';
+    }
+    return result;
 
 
 }
