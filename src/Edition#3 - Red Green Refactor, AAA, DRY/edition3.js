@@ -1,11 +1,7 @@
 function toRomanNumerals(value) {
-    const dictionary = {
-        1: 'I',
-        5: 'V',
-        10: 'X',
-        50: 'L',
-    }
-    if (dictionary?.[value]) return dictionary[value]
-    return dictionary[1].repeat(value)
+    if(value === 1) return 'I';
+    if(value === 2) return 'II';
+    if(value === 3) return 'III';
+    return '';
 }
 module.exports = toRomanNumerals;
