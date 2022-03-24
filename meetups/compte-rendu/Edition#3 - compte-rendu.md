@@ -1,6 +1,9 @@
 # Hands-on TDD #3 - [26 avril 2021]
 
 #Lightning talk
+Red Green Refactor cycle
+AAA
+DRY
 
 # Points forts
 Kata cool (Roman Numbers) à reprendre pour la prochaine édition
