@@ -1,4 +1,4 @@
-# Edition#1 - Red Green Refactor, baby steps, SRP
+# Edition#5 - Red Green Refactor, AAA, DRY
 
 ## Red Green Refactor
 Le TDD suit un cycle en 3 étapes :
