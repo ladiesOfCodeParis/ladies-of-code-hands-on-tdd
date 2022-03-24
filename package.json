@@ -7,7 +7,9 @@
     "test:all": "jest",
     "test:edition#1": "jest -t Edition#1 --watch",
     "test:edition#2": "jest -t Edition#2 --watch",
-    "test:edition#3": "jest -t Edition#3 --watch"
+    "test:edition#3": "jest -t Edition#3 --watch",
+    "test:edition#4": "jest -t Edition#4 --watch",
+    "test:edition#5": "jest -t Edition#5 --watch"
   },
   "jest": {
     "verbose": true,
